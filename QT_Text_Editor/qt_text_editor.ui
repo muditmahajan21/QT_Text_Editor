@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QT_Text_Editor</class>
+ <widget class="QMainWindow" name="QT_Text_Editor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QT_Text_Editor</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>571</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAbout_Me">
+    <property name="title">
+     <string>About Me</string>
+    </property>
+    <addaction name="actionResume"/>
+   </widget>
+   <addaction name="menuAbout_Me"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionBold"/>
+   <addaction name="actionUnbold"/>
+   <addaction name="actionSubScript"/>
+   <addaction name="actionSuperScript"/>
+  </widget>
+  <action name="actionBold">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="editor_resources.qrc">
+     <normaloff>:/Images/2022-01-30_17-27-removebg-preview.png</normaloff>:/Images/2022-01-30_17-27-removebg-preview.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bold</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionUnbold">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="editor_resources.qrc">
+     <normaloff>:/Images/2022-01-30_18-24-removebg-preview.png</normaloff>:/Images/2022-01-30_18-24-removebg-preview.png</iconset>
+   </property>
+   <property name="text">
+    <string>Unbold</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionSubScript">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="editor_resources.qrc">
+     <normaloff>:/Images/sup-removebg-preview.png</normaloff>:/Images/sup-removebg-preview.png</iconset>
+   </property>
+   <property name="text">
+    <string>SubScript</string>
+   </property>
+  </action>
+  <action name="actionSuperScript">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="editor_resources.qrc">
+     <normaloff>:/Images/sub-removebg-preview.png</normaloff>:/Images/sub-removebg-preview.png</iconset>
+   </property>
+   <property name="text">
+    <string>SuperScript</string>
+   </property>
+  </action>
+  <action name="actionResume">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Resume</string>
+   </property>
+  </action>
+  <action name="actionBold_2">
+   <property name="text">
+    <string>Bold</string>
+   </property>
+  </action>
+  <action name="actionUnbold_2">
+   <property name="text">
+    <string>Unbold</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="editor_resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

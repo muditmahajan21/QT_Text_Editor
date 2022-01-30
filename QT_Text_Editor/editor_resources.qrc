@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>2022-01-30_17-27-removebg-preview.png</file>
+        <file>2022-01-30_18-24-removebg-preview.png</file>
+        <file>sup-removebg-preview.png</file>
+        <file>sub-removebg-preview.png</file>
+    </qresource>
+    <qresource prefix="/Documents">
+        <file>resume.pdf</file>
+    </qresource>
+</RCC>
